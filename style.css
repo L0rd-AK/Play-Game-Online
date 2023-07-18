@@ -151,6 +151,10 @@ nav>ul>li{
     font-weight: 600;
     color: #FFF;
 }
+/* card-section */
+.funny-vid{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+}
 
 
 

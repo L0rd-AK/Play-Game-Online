@@ -33,6 +33,19 @@
     .item-title{
         margin-left: 20px;
     }
+    .navigation{
+        margin-bottom: 100px;    }
+    /* hero-section */
+    .hero-section{
+        margin: 100px auto;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .hero-img{
+        width: 100%;
+        height: 400px;
+        margin-top: 140px;
+    }
 }
 /* responsive for tablet */
 @media (min-width: 576px) and (max-width: 992px){
@@ -51,4 +64,11 @@
     .item-title{
         margin-right: 20px;
     }
+    /* hero section */
+   
+    .hero-img {
+        width: 440px;
+        height: 310px;
+    }
 }
+
