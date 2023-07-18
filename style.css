@@ -30,6 +30,15 @@ nav>ul>li{
     text-decoration: none;
     list-style: none;
 }
+.logo-box{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-box>li>a{
+    text-decoration: none;
+}
 .logo{
     width: 70px;
     height: 40px;

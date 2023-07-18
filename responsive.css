@@ -1,1 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+@media screen and (max-width: 576px) {
+    *{
+        box-sizing: border-box;
+        font-family: 'Work Sans', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .navigation{
+        width: 100%;
+        display: flex;
+        box-shadow: none;
+    }
+    .gamer{
+        margin-right: 0px;
+    }
+    .logo{
+        width: 70px;
+        height: 40px;
+        margin-left: 0px;
+    }
+    .logo-box{
+        margin-top: 50px;
+    }
+    .nav-items{
+        flex-direction: column;
+        background: #FFF;
+        padding: 10px;
+    }
+    .nav-items>li{
+        margin: 20px 70px;
+    }
+    .item-title{
+        margin-left: 20px;
+    }
+}
