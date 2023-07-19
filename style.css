@@ -245,7 +245,40 @@ nav>ul>li{
     margin-top: 380px;
     margin-left: -850px;
 }
+/* game-card section */
+.games-catagory-section{
+    margin-top: 200px;
+    height: 300px;
+}
+.games-container{
+    display: grid;
+    grid-template-areas: "game-card game-card game-card game-card game-card"
+                            "game-card game-card game-card game-card";
+    margin-top: 50px;
+}
+.game-card-btn{
+    display: flex;
+    width: 250px;
+    height: 80px;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #FFF;
+    border: none;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+.game-card-btn:hover{
+    border: 1px solid #FF42A5;
+    border-radius: 35px;
+    color: #FF42A5;
 
+}
+.game-card{
+    margin-right: 30px;
+}
 
 
 
