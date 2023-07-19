@@ -46,6 +46,28 @@
         height: 400px;
         margin-top: 140px;
     }
+    /* card section */
+    .card-container{
+        flex-direction: column;
+    }
+    /* play-games section */
+    .Play-games-container{
+        flex-direction: column;
+    }
+    .play-games-img-2 {
+        width: 137.5px;
+        height: 149.08300000000003px;
+        border-radius: 8px;
+        position: relative;
+        margin-top: -107px;
+        margin-left: 12px;
+    }
+    .play-games-img-1 {
+        width: 298.833px;
+        height: 293px;
+        border-radius: 8px;
+        margin-left: -20px;
+    }
 }
 /* responsive for tablet */
 @media (min-width: 576px) and (max-width: 992px){
