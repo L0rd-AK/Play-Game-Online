@@ -109,6 +109,30 @@
     #Strategy{
         margin-left: 0px;
     }
+    /* footer */
+    footer{
+        height: 500px;
+    }
+    .footer-nav{
+        flex-wrap: wrap;
+        margin-left: 70px;
+        gap: 27px;
+    }
+    .footer-img{
+        flex-wrap: wrap;
+        gap: 26px;
+    }
+    .footer-des{
+        flex-wrap: wrap;
+        gap: 27px;
+    }
+    .footer-gap{
+        margin-top: 0px;
+    }
+    .foot{
+        margin-left: 27px;
+        m
+    }
 }
 /* responsive for tablet */
 @media (min-width: 576px) and (max-width: 992px){
