@@ -51,8 +51,24 @@
         flex-direction: column;
     }
     /* play-games section */
+    .play-games-title, .play-games-description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     .Play-games-container{
         flex-direction: column;
+        margin-top: 50px;
+    }
+    .play-games{
+        width: auto;
+    }
+    .m-down{
+        margin-bottom: 20px;
+    }
+    .play-instantly{
+        margin-bottom: -55px;
     }
     .play-games-img-2 {
         width: 137.5px;
@@ -66,7 +82,7 @@
         width: 298.833px;
         height: 293px;
         border-radius: 8px;
-        margin-left: -20px;
+        margin-left: 70px;
     }
 }
 /* responsive for tablet */
@@ -92,5 +108,36 @@
         width: 440px;
         height: 310px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.red{
+    border: 2px solid red;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
