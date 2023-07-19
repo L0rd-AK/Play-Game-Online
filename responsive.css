@@ -84,6 +84,30 @@
         border-radius: 8px;
         margin-left: 70px;
     }
+    /* game catagory section */
+    .games-catagory-section{
+        margin-top: 200px;
+        height: 500px;
+        display: grid;
+        justify-content: center;
+    }
+    .games-container{
+        display: grid;
+        grid-template-columns: 130px 130px 130px;
+        gap: 10px;
+    }
+    .game-card-btn{
+        width: 130px;
+        height: 80px;
+        font-size: 15px;
+    }
+    .game-card-btn>img{
+        width: 30px;
+        height: 30px;
+    }
+    #Strategy{
+        margin-left: 0px;
+    }
 }
 /* responsive for tablet */
 @media (min-width: 576px) and (max-width: 992px){
