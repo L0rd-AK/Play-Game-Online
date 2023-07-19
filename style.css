@@ -247,7 +247,7 @@ nav>ul>li{
 }
 /* game-card section */
 .games-catagory-section{
-    margin-top: 200px;
+    margin-top: 100px;
     height: 300px;
     display: grid;
     justify-content: center;
@@ -256,6 +256,7 @@ nav>ul>li{
     display: grid;
     grid-template-columns: 250px 250px 250px 250px 250px;
     gap: 10px;
+    margin-top: 50px;
 }
 .game-card-btn{
     display: flex;
@@ -312,4 +313,10 @@ nav>ul>li{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.upper{
+    text-transform: uppercase;
+}
+.hid{
+    display: none;
 }

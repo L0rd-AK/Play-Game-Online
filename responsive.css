@@ -90,6 +90,7 @@
         height: 500px;
         display: grid;
         justify-content: center;
+        margin-top: 0px;
     }
     .games-container{
         display: grid;
@@ -154,7 +155,6 @@
         display: flex;
         margin-top: 57px;
         flex-direction: column;
-        margin-bottom: 5000px;
     }
     .play-games-img-2{
         z-index: 1;
@@ -167,6 +167,10 @@
     }
     .play-games-img-1{
       margin-left: 50px;
+    }
+    /* game catagory section */
+    .games-catagory-section{
+        margin-bottom: 500px;
     }
 }
 
