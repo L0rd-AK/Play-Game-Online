@@ -108,6 +108,42 @@
         width: 440px;
         height: 310px;
     }
+    /* card-section */
+    .card-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .card{
+        margin-left: 60px;
+    }
+    /* play games section */
+    .play-games-descrption{
+        margin-bottom: 50px;
+    }
+    .play-games{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    .Play-games-container {
+        display: flex;
+        margin-top: 57px;
+        flex-direction: column;
+        margin-bottom: 5000px;
+    }
+    .play-games-img-2{
+        z-index: 1;
+        position: absolute;
+        margin-top: 724px;
+        margin-left: 40px;
+    }
+    .ddchs{
+        margin-bottom: 50px;
+    }
+    .play-games-img-1{
+      margin-left: 50px;
+    }
 }
 
 
