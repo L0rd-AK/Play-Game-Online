@@ -131,7 +131,6 @@
     }
     .foot{
         margin-left: 27px;
-        m
     }
 }
 /* responsive for tablet */
@@ -165,6 +164,10 @@
     .card{
         margin-left: 60px;
     }
+    .card-img{
+        width: 80%;
+        margin-left: 40px;
+    }
     /* play games section */
     .play-games-descrption{
         margin-bottom: 50px;
@@ -195,6 +198,20 @@
     /* game catagory section */
     .games-catagory-section{
         margin-bottom: 500px;
+    }
+        .games-container {
+            display: grid;
+            grid-template-columns: 250px 250px 250px;
+            gap: 25px;
+            margin-top: 50px;
+    }
+    #Strategy{
+        margin-left: 0px;
+    }
+    /* footer */
+    .footer-nav {
+        display: flex;
+        gap: 48px;
     }
 }
 
